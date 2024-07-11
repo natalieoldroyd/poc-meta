@@ -3,7 +3,7 @@
 client_id = "bc7a3dbd13ce913d0f9e0fd3d2525202"
 name = "poc-meta-app"
 handle = "poc-meta-app"
-application_url = "https://nevada-galleries-design-suddenly.trycloudflare.com"
+application_url = "https://indianapolis-editor-flush-scoop.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = ""
 
 [auth]
 redirect_urls = [
-  "https://nevada-galleries-design-suddenly.trycloudflare.com/auth/callback",
-  "https://nevada-galleries-design-suddenly.trycloudflare.com/auth/shopify/callback",
-  "https://nevada-galleries-design-suddenly.trycloudflare.com/api/auth/callback"
+  "https://indianapolis-editor-flush-scoop.trycloudflare.com/auth/callback",
+  "https://indianapolis-editor-flush-scoop.trycloudflare.com/auth/shopify/callback",
+  "https://indianapolis-editor-flush-scoop.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

@@ -7,10 +7,7 @@ export default extension(
     const {field, value} = target;
 
     // 2. Fetch address suggestions
-    const response = await fetch(
-      `https://myapp.com/api/address-suggestions?query=${value}&field=${field}`,
-      {signal},
-    );
+    const response = await fetch("https://dogapi/dog/api/v2/breeds")
 
     // 3. Map response data to expected format
     const {data} = await response.json();
@@ -30,6 +27,8 @@ export default extension(
         },
       };
     });
+
+    console.log(data)
 
     // 4. Return up to five address suggestions
     return {
