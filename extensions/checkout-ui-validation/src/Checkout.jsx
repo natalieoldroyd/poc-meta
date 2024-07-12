@@ -5,6 +5,7 @@ export default extension(
   async ({signal, target}) => {
     // 1. Use the query term the buyer entered
     const {field, value} = target;
+
     // 2. Fetch address suggestions
     const response = await fetch("https://c7791c19-6095-4f56-b022-f74d4be6ab00.mock.pstmn.io/address/suggest", {
       method: 'POST',
